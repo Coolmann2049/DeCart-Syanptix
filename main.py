@@ -1,0 +1,13 @@
+
+
+from Competitor_profile import competitor_profile
+from competitive_strategy import competitive_strategy
+from SWOT_analysis import SWOT_analysis
+from summarizer import generate_summary
+from key_analysis import generate_key_analysis
+from text_image_table_inference import text_image_table_inference
+
+
+
+generate_summary(text_image_table_inference)
+generate_key_analysis(SWOT_analysis,competitive_strategy,competitor_profile)
